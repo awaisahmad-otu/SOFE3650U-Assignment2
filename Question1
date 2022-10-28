@@ -1,6 +1,6 @@
 PASTE USE CASE DIAGRAM
 
-| Use Case | Description | Requirement |
-| -------- | ----------- | ----------- |
-| UC-1 | xc | R-0x |
-| UC-2 | x ef | R-0x |
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
