@@ -29,8 +29,7 @@
 # Contraints
 | ID | Constraint | Requirement |
 | -------- | ----------- | ----------- |
-| CON-1 | x | R-0x |
-| CON-2 | x | R-0x |
-| CON-3 | x | R-0x |
-| CON-4 | x | R-0x |
-| CON-5 | x | R-0x |
+| CON-1 | The cash register must be connected to the local database at all times. | R-09 |
+| CON-2 | All features of the cash register must be accessible through the keyboard. | All |
+| CON-3 | System must be able to communicate with the 3rd party payment system to allow credit and debit transactions. | R-05 |
+| CON-4 | Cash register must be able to communicate with the printer to print paper ticket receipt of the purchasing session. | R-06 |
