@@ -15,9 +15,15 @@
 <br>
 
 # Quality Scenarios
-| ID | Quality Attribtue | Scenario | Use Case | Requirement |
-| -- | ----------------- | -------- | -------- | ----------- |
-| QA-1 | x | x | UC-x | R-0x | 
+| ID | Quality Attribtue | Scenario | Associated Use Case |
+| -- | ----------------- | -------- | -------- |
+| QA-1 | Modifiability | Any part of the hardware of the cash register, including the whole platform, can be easily changed in the future. | All |
+| QA-2 | Security | The payment of products should be done securely without the risk of leaking credit or debit information. | UC-6 |
+| QA-3 | Availability | The cash register system should not be down for longer than 1 minute. The local database should remain available 24/7. | All |
+| QA-4 | Usability | The system should have clear labels for all its functions so that any new cashier can eaily learn how to use it with minimal errors. | All |
+| QA-5 | Performance | After scanning an item, its information should be on the display within 3 seconds. For items whose barcode cannot be found, the message "Unknown product" should also be displayed within 3 seconds of scanning. | UC-3, UC-4 |
+| QA-6 | Performance, availability | After ending the session, all items scanned and their quantites should be removed from the count in the local database within 5 seconds to prevent inventory errors. | UC-8 |
+| QA-7 | Interoperability | The cash register should be able to easily communicate with the 3rd party payment system to complete transactions. | UC-6 |
 <br>
 
 # Contraints
